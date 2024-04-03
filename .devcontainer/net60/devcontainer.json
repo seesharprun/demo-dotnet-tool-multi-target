@@ -1,0 +1,7 @@
+{
+    "name": ".NET 6",
+    "image": "mcr.microsoft.com/dotnet/sdk:6.0",
+    "remoteEnv": {
+        "PATH": "${containerEnv:PATH}:/root/.dotnet/tools"
+    }
+}

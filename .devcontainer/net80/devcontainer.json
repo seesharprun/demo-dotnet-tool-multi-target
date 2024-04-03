@@ -1,0 +1,7 @@
+{
+    "name": ".NET 8",
+    "image": "mcr.microsoft.com/dotnet/sdk:8.0",
+    "remoteEnv": {
+        "PATH": "${containerEnv:PATH}:/root/.dotnet/tools"
+    }
+}
